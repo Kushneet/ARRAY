@@ -4,7 +4,7 @@ void reverse(int arr[],int n) //top because array is to be reversed before print
 {    
     int start=0; // arr[i] not used	because reverse logic uses two-way swapping,
     int end=n-1; //  not one-way traversal
-    while(start<=end){
+    while(start<=end){  //for(i=0;i<n;i+=2){ swap(arr[i],arr[i+1]);} for alternate swapping 
           swap(arr[start],arr[end]); // predefined fxn in C++
     start++; // start aage jaara h end peeche aara h 
     end--;
