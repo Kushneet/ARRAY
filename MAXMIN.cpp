@@ -5,13 +5,14 @@ int getMAX(int num[],int size)  // num is the name of the array
  int max= INT_MIN; // INT_MIN gives the smallest element of the array
  for(int i=0;i<size;i++)
     {
-        if(num[i]>max)
-        {
+     maxi=max(max,num[i];
+      /*  if(num[i]>max)
+        {                      same as if statement
             max=num[i];
-        }
+        } */
        
     }
-    return max;
+    return maxi;
 }
 int getMIN(int num[],int size)
 {
