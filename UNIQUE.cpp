@@ -2,10 +2,11 @@
 using namespace std;
 int FindUnique (int arr[],int size)
 {
-   int ans=0;
+   int ans=0; // Anything XOR 0 stays the same.
+
    for(int i=0;i<size;i++)
    {
-    ans=ans^arr[i];
+    ans=ans^arr[i]; //  num^num=0
    }
  return ans;
 }
